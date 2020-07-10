@@ -1,0 +1,76 @@
+.view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.view>form{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+    border: 1px solid bisque;
+    border-radius: 2rem;
+    background-color: rgb(230, 203, 168,0.6);
+    box-shadow: 2px 2px 2px rgb(235, 230, 223);
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.view>form>textarea{
+    resize: none;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    height: 100px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.2rem 0.2rem 0.5rem black;
+}
+.view>form>h2{
+    text-decoration: underline;
+}
+.datas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(230, 171, 95);
+    box-shadow: 2px 2px 2px rgb(235, 230, 223);
+    padding: 1rem;
+    margin: 0.5rem 0;
+    color: rgb(154, 25, 228);
+}
+.datashow>h2{
+    color: black;
+}
+.datashow>p{
+    font-size: 1.05rem;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    color: rgb(52, 59, 61);
+
+}
+.datashow>p{
+    font-size: 1.1rem;
+}
+.view>form>button{
+    padding: 0.5rem 2rem;
+    background-color: blanchedalmond;
+    border:0;
+    outline: none;
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    transition: all 1s;
+}
+.view>form>button:hover{
+    transform: scale(1.1,1.1);
+    border-radius: 1rem;
+    background-color: azure;
+    color: blue;
+}
